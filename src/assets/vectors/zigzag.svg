@@ -1,0 +1,23 @@
+<svg
+            width="100%"
+            height="10"
+            className="rotate-180 absolute bottom-0 left-0 translate-y-2.5"
+          >
+            <defs>
+              <pattern
+                id="@snappin/zig-zag-svg-id"
+                patternUnits="userSpaceOnUse"
+                patternContentUnits="userSpaceOnUse"
+                width="17.6"
+                height="10"
+              >
+                <path d="M17.6 10L17.6 0L8.80001 10H17.6Z" fill="white" />
+                <path d="M8.80001 10H0V0L8.80001 10Z" fill="white" />
+              </pattern>
+            </defs>
+            <rect
+              width="100%"
+              height="100%"
+              fill="url(#@snappin/zig-zag-svg-id)"
+            />
+          </svg>
