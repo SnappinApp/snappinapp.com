@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Icon } from "@iconify/react";
 import MobileMenu, { CTAButtons } from "../ui/header/MobileMenu";
 import { DesktopMenu } from "../ui/header/DesktopMenu";
 import Image from "next/image";
